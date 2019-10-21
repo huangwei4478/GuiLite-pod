@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GuiLite-Pod_Example' do
+  pod 'GuiLite-Pod', :path => '../'
+
+  target 'GuiLite-Pod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
