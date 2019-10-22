@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6194F5235DE45000C705DB /* UIcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6194F4235DE45000C705DB /* UIcode.cpp */; };
 		3135D14A63A31C4FCB8D23D1 /* Pods_GuiLite_Pod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2CDF32D5CF41E2DD7094B4 /* Pods_GuiLite_Pod_Tests.framework */; };
 		5C8DEE951C07B3234E61E2A3 /* Pods_GuiLite_Pod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200937D07D11DD7C588CF15A /* Pods_GuiLite_Pod_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -31,9 +32,10 @@
 		077140326D78B2A45D5F8EAF /* Pods-GuiLite-Pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiLite-Pod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GuiLite-Pod_Tests/Pods-GuiLite-Pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0A9D3A9E0B9D7A2D5F221621 /* Pods-GuiLite-Pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiLite-Pod_Tests.release.xcconfig"; path = "Target Support Files/Pods-GuiLite-Pod_Tests/Pods-GuiLite-Pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0C2CDF32D5CF41E2DD7094B4 /* Pods_GuiLite_Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuiLite_Pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6194F4235DE45000C705DB /* UIcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIcode.cpp; sourceTree = "<group>"; };
 		163E832674E57AF8710FA7CF /* Pods-GuiLite-Pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiLite-Pod_Example.debug.xcconfig"; path = "Target Support Files/Pods-GuiLite-Pod_Example/Pods-GuiLite-Pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		200937D07D11DD7C588CF15A /* Pods_GuiLite_Pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuiLite_Pod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BF285ED7213F8C445F371BC /* GuiLite-Pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "GuiLite-Pod.podspec"; path = "../GuiLite-Pod.podspec"; sourceTree = "<group>"; };
+		2BF285ED7213F8C445F371BC /* GuiLite-Pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "GuiLite-Pod.podspec"; path = "../GuiLite-Pod.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		59BC70B775B6CB5643640365 /* Pods-GuiLite-Pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuiLite-Pod_Example.release.xcconfig"; path = "Target Support Files/Pods-GuiLite-Pod_Example/Pods-GuiLite-Pod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GuiLite-Pod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GuiLite-Pod_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +47,8 @@
 		607FACE51AFB9204008FA782 /* GuiLite-Pod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GuiLite-Pod_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		83D51389D4E49B8AEC64B7D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D652259387D714BC511695EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		83D51389D4E49B8AEC64B7D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D652259387D714BC511695EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				0E6194F4235DE45000C705DB /* UIcode.cpp */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -147,7 +150,6 @@
 				077140326D78B2A45D5F8EAF /* Pods-GuiLite-Pod_Tests.debug.xcconfig */,
 				0A9D3A9E0B9D7A2D5F221621 /* Pods-GuiLite-Pod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = HK4D772C6B;
+						LastSwiftMigration = 1030;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HK4D772C6B;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6194F5235DE45000C705DB /* UIcode.cpp in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -478,11 +484,14 @@
 			baseConfigurationReference = 163E832674E57AF8710FA7CF /* Pods-GuiLite-Pod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = HK4D772C6B;
 				INFOPLIST_FILE = "GuiLite-Pod/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.GuiLite-Pod-Example2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -493,10 +502,12 @@
 			baseConfigurationReference = 59BC70B775B6CB5643640365 /* Pods-GuiLite-Pod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = HK4D772C6B;
 				INFOPLIST_FILE = "GuiLite-Pod/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.GuiLite-Pod-Example2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -507,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 077140326D78B2A45D5F8EAF /* Pods-GuiLite-Pod_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HK4D772C6B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A9D3A9E0B9D7A2D5F221621 /* Pods-GuiLite-Pod_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HK4D772C6B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

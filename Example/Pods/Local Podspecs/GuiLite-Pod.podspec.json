@@ -1,0 +1,22 @@
+{
+  "name": "GuiLite-Pod",
+  "version": "0.1.0",
+  "summary": "A short description of GuiLite-Pod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huangwei4478/GuiLite-Pod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huangwei4478": "harw.op@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/huangwei4478/GuiLite-Pod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GuiLite-Pod/Classes/**/*"
+}

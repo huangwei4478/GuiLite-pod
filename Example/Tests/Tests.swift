@@ -1,5 +1,4 @@
 import XCTest
-import GuiLite-Pod
 
 class Tests: XCTestCase {
     

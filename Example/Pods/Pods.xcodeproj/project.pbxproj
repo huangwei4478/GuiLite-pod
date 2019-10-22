@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0156F752334BB3B57CC4853ACA5063FE /* Pods-GuiLite-Pod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF21BECCC0AB694EE6481C9DEE834F9 /* Pods-GuiLite-Pod_Example-dummy.m */; };
+		0372BC72289A12B3D9F47ADC63DD2902 /* wave_ctrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7612B7FE427E48026AB50C3F5E38A41 /* wave_ctrl.cpp */; };
+		040B68F9A2D7212C046AECE997BC4C41 /* wave_ctrl.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAA719CC64C2E151A602D0ABEAE5582 /* wave_ctrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0877B5F7B9027B10CC2AA43132FEFDAF /* edit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA05465126A6E842D0A4905ADA888D8 /* edit.cpp */; };
+		157D462044FBE02AD23E67E0A1041EF6 /* edit.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E4A051B859B3E72FDC8D645FC9FCB1 /* edit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E6FF20BD9A1E70966CDED92ED8D234 /* api.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E496431888129E957DBEBFEBACF7853 /* api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1978E98FFB45F8ACF50964FBE05B78A2 /* list_box.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BA16E53FF8ADF939E61F78D0F8A0C3 /* list_box.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		215C796FC73B2E652111C6F8FFC08156 /* dialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73CB8689D2F657C6C74CD2A785A06092 /* dialog.cpp */; };
+		280772136E26B11B1A340ABCAC7FAD91 /* button.h in Headers */ = {isa = PBXBuildFile; fileRef = FB35405A172F3FA9C5B3B661A26DEB4B /* button.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28CDA456362B38275A8341AFB31DB1B8 /* theme.h in Headers */ = {isa = PBXBuildFile; fileRef = 555A8CFD283E258C4FBE5CF89AA8CB69 /* theme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DC4FE42B458037C59D14734E6D07FC4 /* label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8AA77CE786B28284A7CA1C3804EF6AE5 /* label.cpp */; };
+		3040067DE793203ADDE207C7C04D8C4B /* GuiLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D44AD12B8045B38344D98469DC591A3 /* GuiLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AF2CCAA74CAB6B5B0A6B0ADD7010F88 /* msg_linux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F29A2E2774FD669DF38BD1A2B2E214DE /* msg_linux.cpp */; };
+		3D2C876AD43AEAF424291118E4F28E9C /* wnd.h in Headers */ = {isa = PBXBuildFile; fileRef = 175F5D79FA091651F9E88F7DA2316BF5 /* wnd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41198119493B90502AA5FD5DA93F2F3B /* list_box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AD5363F2451811EF7614DC891ED3FC3 /* list_box.cpp */; };
+		413FCFC8ED35A6F60EED8758BD1AA6E0 /* rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C6C8F48BBFEB9A2FDB3274B2803614 /* rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		437E0571FE1F1738E01C92F1831FFE4D /* dialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 1004681208FBDF9DABA5A88CF6F38816 /* dialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A48BBBABD2D5B0E5535B5164DC0508 /* label.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B5BBE55131CAE8BB21402C5AD15782 /* label.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48AF48CC2AA7614AC9F50C06DDA15459 /* Pods-GuiLite-Pod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1913B4926189CD2C22075CACBFDA514 /* Pods-GuiLite-Pod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		533C52B77311C79A8552EB6B34CE5D10 /* wave_buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CDF649AD7D082398DE27C92F600521A /* wave_buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		534C15121F10AD859A7F04B17CDCA5C4 /* table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A0497D14483CC466D1163B75D644BBC /* table.cpp */; };
+		5533EA57866B4D450DE0E37F81FB596E /* slide_group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B3F9197CF447C4E3A617699C37EAB1C /* slide_group.cpp */; };
+		5583AB4E5A73E9E8AAECBECAA4FDF3B8 /* wave_buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 624EB19BF248C8BDD1346E7E95E48574 /* wave_buffer.cpp */; };
+		5A840C0324FC607151AB6C04C78ED88B /* msg.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CB491556C4C5869D2B9594321188FA /* msg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AD1265B9257FC61BD56566360E28400 /* display.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D33EC3FC5B0328F34E5843FA847416B /* display.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B909EA19E0E08A0FDD394C49796190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6811DCE5CD12184505EDA639CA5C6761 /* table.h in Headers */ = {isa = PBXBuildFile; fileRef = B739D8ADFC0720771A415557A262A2C4 /* table.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BEE477D205A066BBDF949A111171062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7253A85F5888456D850F4F4D99DCBE13 /* word.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6FAB582B0D2295A0FA7CCA0CDCCCD80 /* word.cpp */; };
+		72981EBB553BDDF6CF4A84F121FEE627 /* display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A9A9340DD210EC6BC82B1EFCCE50B5 /* display.cpp */; };
+		79BFE8B2F59AE3E748B3A85CB8A07FD8 /* keyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EC7AEEBE0679A14451E001D524379E /* keyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CCAA24E852EC0BC57575592268C5241 /* rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 085E9C517E8A1F95CF6AF480735CE769 /* rect.cpp */; };
+		7DB0C2680FC84ABC89C997C703483834 /* surface.h in Headers */ = {isa = PBXBuildFile; fileRef = E73A53D0E6BA495746556F23BB3D8891 /* surface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF882902654001185D65633B0002D5E /* spinbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8756D870C2D6B677151EDFBF0C4E8875 /* spinbox.cpp */; };
+		7E8B1BB8BBE7BDCFD89E31921D17B05F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		816D181B7CEAAFF4340D946ECDA98A75 /* word.h in Headers */ = {isa = PBXBuildFile; fileRef = C0ACCFB8F32C455E80594BC3A8426CBE /* word.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86FAAC440DC48836A23F903955CC77E1 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7C42A0878C21BEBE390E55399E17F8 /* resource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91CF92C99DC2511E45CE16F1F65F0B6F /* button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 229B3383909D47CD5AF5898FB26470B0 /* button.cpp */; };
+		95CE597AD85D57245FAC2F62AD57EE3C /* bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8845255721F9845C1FE424BCE5696460 /* bitmap.cpp */; };
+		9A1C347754D9C3D27882FED9E11B8D46 /* GuiLite-Pod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC215EB0099C098773D0C66F896A3966 /* GuiLite-Pod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D4922E11E752FC9736FF75DA63E1437 /* spinbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F4FF4F7475435EBC92EA37D7952B1B /* spinbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2CE1545F16B4AA261FCB2BC449497BD /* api_linux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82FFEB9ABB2F93CA0E6F17F018AA754E /* api_linux.cpp */; };
+		A3ACD514CFA5C82C969E3C33B54B6BCF /* gesture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D44411A835169FF70B2400C19DBE7 /* gesture.cpp */; };
+		B3A88AA5536F5FD93DAE4749D570DF2B /* audio.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0A02878AC255DBCA435C09678E5F77 /* audio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4BD332C3C2C3AF61D1D081A1764BD79 /* keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555694AF4C3DE14C9FBEE7E1D8FDBD46 /* keyboard.cpp */; };
+		B6967F9760348AFFC50F831460CC7AAF /* cmd_target.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2AD985D70FE887917B8A6B09652F9A /* cmd_target.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C98654D528576A286282DEE429EF2373 /* cmd_target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 89B2EC8EBA197561EF1F4F7D973F77E6 /* cmd_target.cpp */; };
+		D2C506DF822E3C10AB01CA3239BCEE0A /* bitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBC70E04605B4ACBD228BD9F1A1377C /* bitmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E24C89850F85720E48EEBB6ECC8CA57E /* audio_linux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48D04967125B21E1A60EBA9F72A76218 /* audio_linux.cpp */; };
+		E4D2588E7D54AE01C444E87ACC293E6F /* Pods-GuiLite-Pod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 262F360E48A001C8B22A4D8D244F6A2F /* Pods-GuiLite-Pod_Tests-dummy.m */; };
+		EA60C6C2D6382543F260DFDE0104CA55 /* wnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CC965BD27799AA2EE959E913CF7DFB7 /* wnd.cpp */; };
+		ED06D7A778C4488E7812628FF20F6AE6 /* Pods-GuiLite-Pod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEF7F9FE9571C1039A1F80EAEFF6E4B /* Pods-GuiLite-Pod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF680341AE65A444EB28B9246BBC0129 /* GuiLite-Pod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C77F9AB8434941F20F987F1866DEE2 /* GuiLite-Pod-dummy.m */; };
+		F53114ABCEEAB9083CC29EC2C9D04720 /* theme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79436755C0ABD61A5A76C7DF2051816D /* theme.cpp */; };
+		F7021E2EAF428119430AEE64C024301A /* gesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 5889651A07C37F9B093A479C008552F1 /* gesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDFB590B0E74702198871E091E69BF4E /* slide_group.h in Headers */ = {isa = PBXBuildFile; fileRef = 9999F9BC9C471602DB4D59D80C462133 /* slide_group.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0B82C51522E8247E50513AF64A4185 /* surface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 724521084132B97C11A8419EE0EAA346 /* surface.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B82882409E0D5A270FF8C297C9DD064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD3944AA14FD50DC744D19C897B7250;
+			remoteInfo = "Pods-GuiLite-Pod_Example";
+		};
+		78BC43FB8EF0938BCF769BDE525A3055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14C60A4B5F573FCDA48FAB57BD3B489;
+			remoteInfo = "GuiLite-Pod";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		085E9C517E8A1F95CF6AF480735CE769 /* rect.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = rect.cpp; sourceTree = "<group>"; };
+		0A7C42A0878C21BEBE390E55399E17F8 /* resource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		0AD5363F2451811EF7614DC891ED3FC3 /* list_box.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = list_box.cpp; sourceTree = "<group>"; };
+		1004681208FBDF9DABA5A88CF6F38816 /* dialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dialog.h; sourceTree = "<group>"; };
+		175F5D79FA091651F9E88F7DA2316BF5 /* wnd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wnd.h; sourceTree = "<group>"; };
+		19B5BBE55131CAE8BB21402C5AD15782 /* label.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = label.h; sourceTree = "<group>"; };
+		1CA05465126A6E842D0A4905ADA888D8 /* edit.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = edit.cpp; sourceTree = "<group>"; };
+		229B3383909D47CD5AF5898FB26470B0 /* button.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = button.cpp; sourceTree = "<group>"; };
+		262F360E48A001C8B22A4D8D244F6A2F /* Pods-GuiLite-Pod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuiLite-Pod_Tests-dummy.m"; sourceTree = "<group>"; };
+		277CA06EC1CA1DB06CF0D8F30048B949 /* Pods-GuiLite-Pod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiLite-Pod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A3A0135A1E8A1421F45C49EF2259558 /* Pods-GuiLite-Pod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiLite-Pod_Example-Info.plist"; sourceTree = "<group>"; };
+		2DC87CB192B8DBF4FEB1D57233800088 /* Pods-GuiLite-Pod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GuiLite-Pod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33EFD57BFB6C08E788B84EB48A391066 /* Pods_GuiLite_Pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuiLite_Pod_Tests.framework; path = "Pods-GuiLite-Pod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3848BF4D6A43503F4CBBE35675DC70D1 /* Pods-GuiLite-Pod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiLite-Pod_Tests-Info.plist"; sourceTree = "<group>"; };
+		3D33EC3FC5B0328F34E5843FA847416B /* display.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		3D44AD12B8045B38344D98469DC591A3 /* GuiLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GuiLite.h; path = "GuiLite-Pod/Classes/GuiLite.h"; sourceTree = "<group>"; };
+		46998C270B3A22D014AFBFC258721CCB /* Pods-GuiLite-Pod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GuiLite-Pod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EC7AEEBE0679A14451E001D524379E /* keyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = keyboard.h; sourceTree = "<group>"; };
+		48D04967125B21E1A60EBA9F72A76218 /* audio_linux.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = audio_linux.cpp; sourceTree = "<group>"; };
+		4A3B7F63AF119D1ACBD81EFDDA34C13D /* Pods-GuiLite-Pod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuiLite-Pod_Tests.modulemap"; sourceTree = "<group>"; };
+		4DB70460596DB2916C897BA9D320D045 /* GuiLite-Pod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GuiLite-Pod.xcconfig"; sourceTree = "<group>"; };
+		555694AF4C3DE14C9FBEE7E1D8FDBD46 /* keyboard.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = keyboard.cpp; sourceTree = "<group>"; };
+		555A8CFD283E258C4FBE5CF89AA8CB69 /* theme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = theme.h; sourceTree = "<group>"; };
+		5889651A07C37F9B093A479C008552F1 /* gesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = gesture.h; sourceTree = "<group>"; };
+		5AF21BECCC0AB694EE6481C9DEE834F9 /* Pods-GuiLite-Pod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GuiLite-Pod_Example-dummy.m"; sourceTree = "<group>"; };
+		5C2804C4596B41B93A2375E738FB9B8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5F8D44411A835169FF70B2400C19DBE7 /* gesture.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = gesture.cpp; sourceTree = "<group>"; };
+		624EB19BF248C8BDD1346E7E95E48574 /* wave_buffer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = wave_buffer.cpp; sourceTree = "<group>"; };
+		6B3F9197CF447C4E3A617699C37EAB1C /* slide_group.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = slide_group.cpp; sourceTree = "<group>"; };
+		724521084132B97C11A8419EE0EAA346 /* surface.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = surface.cpp; sourceTree = "<group>"; };
+		724A281886D4C164B2954E696946A4D2 /* GuiLite-Pod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "GuiLite-Pod.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73CB8689D2F657C6C74CD2A785A06092 /* dialog.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = dialog.cpp; sourceTree = "<group>"; };
+		76A9A9340DD210EC6BC82B1EFCCE50B5 /* display.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = display.cpp; sourceTree = "<group>"; };
+		76C6C8F48BBFEB9A2FDB3274B2803614 /* rect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rect.h; sourceTree = "<group>"; };
+		78F4FF4F7475435EBC92EA37D7952B1B /* spinbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = spinbox.h; sourceTree = "<group>"; };
+		79436755C0ABD61A5A76C7DF2051816D /* theme.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = theme.cpp; sourceTree = "<group>"; };
+		7BEF7F9FE9571C1039A1F80EAEFF6E4B /* Pods-GuiLite-Pod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuiLite-Pod_Example-umbrella.h"; sourceTree = "<group>"; };
+		7CC965BD27799AA2EE959E913CF7DFB7 /* wnd.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = wnd.cpp; sourceTree = "<group>"; };
+		824F2570AD75E3323671AA24DD06A2D4 /* Pods-GuiLite-Pod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiLite-Pod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		82FFEB9ABB2F93CA0E6F17F018AA754E /* api_linux.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = api_linux.cpp; sourceTree = "<group>"; };
+		836301C878F175EF26B358C99B219172 /* GuiLite-Pod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiLite-Pod-prefix.pch"; sourceTree = "<group>"; };
+		8756D870C2D6B677151EDFBF0C4E8875 /* spinbox.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = spinbox.cpp; sourceTree = "<group>"; };
+		8845255721F9845C1FE424BCE5696460 /* bitmap.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = bitmap.cpp; sourceTree = "<group>"; };
+		89B2EC8EBA197561EF1F4F7D973F77E6 /* cmd_target.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = cmd_target.cpp; sourceTree = "<group>"; };
+		8A0497D14483CC466D1163B75D644BBC /* table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = table.cpp; sourceTree = "<group>"; };
+		8AA77CE786B28284A7CA1C3804EF6AE5 /* label.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = label.cpp; sourceTree = "<group>"; };
+		8CDF649AD7D082398DE27C92F600521A /* wave_buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wave_buffer.h; sourceTree = "<group>"; };
+		8DBC70E04605B4ACBD228BD9F1A1377C /* bitmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bitmap.h; sourceTree = "<group>"; };
+		8DD10D889116B52C22E01D17C211BFC7 /* Pods_GuiLite_Pod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GuiLite_Pod_Example.framework; path = "Pods-GuiLite-Pod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E496431888129E957DBEBFEBACF7853 /* api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		8F2313E0A968DFEB9EFFAF7461F18300 /* Pods-GuiLite-Pod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GuiLite-Pod_Example.modulemap"; sourceTree = "<group>"; };
+		93376DC3EC5FE41DB46EC166404898D0 /* Pods-GuiLite-Pod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuiLite-Pod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		938722886B27FC1FD4AA005D07E88306 /* GuiLite_Pod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GuiLite_Pod.framework; path = "GuiLite-Pod.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9999F9BC9C471602DB4D59D80C462133 /* slide_group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = slide_group.h; sourceTree = "<group>"; };
+		99CB491556C4C5869D2B9594321188FA /* msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = msg.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7BA16E53FF8ADF939E61F78D0F8A0C3 /* list_box.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = list_box.h; sourceTree = "<group>"; };
+		AB8CFBFAF5D29FF2E761BD3562B66546 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AF08AA0D5B151E712DE15CAF3F3B3EC1 /* Pods-GuiLite-Pod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiLite-Pod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4AE411A6E3B1AE60ACE894FE3BD0239 /* Pods-GuiLite-Pod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiLite-Pod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B739D8ADFC0720771A415557A262A2C4 /* table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
+		B7CF149932A8BBC5DC624283484E8940 /* GuiLite-Pod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "GuiLite-Pod.modulemap"; sourceTree = "<group>"; };
+		C0ACCFB8F32C455E80594BC3A8426CBE /* word.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = word.h; sourceTree = "<group>"; };
+		C6FAB582B0D2295A0FA7CCA0CDCCCD80 /* word.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = word.cpp; sourceTree = "<group>"; };
+		C7612B7FE427E48026AB50C3F5E38A41 /* wave_ctrl.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = wave_ctrl.cpp; sourceTree = "<group>"; };
+		D154EF676513C896DBF96F4B99BCE788 /* Pods-GuiLite-Pod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GuiLite-Pod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D7E4A051B859B3E72FDC8D645FC9FCB1 /* edit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = edit.h; sourceTree = "<group>"; };
+		DBAA719CC64C2E151A602D0ABEAE5582 /* wave_ctrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wave_ctrl.h; sourceTree = "<group>"; };
+		E1913B4926189CD2C22075CACBFDA514 /* Pods-GuiLite-Pod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GuiLite-Pod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E3A10921D63A27073DF7CB3C63D2B1C4 /* Pods-GuiLite-Pod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GuiLite-Pod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E73A53D0E6BA495746556F23BB3D8891 /* surface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = surface.h; sourceTree = "<group>"; };
+		EB0A02878AC255DBCA435C09678E5F77 /* audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
+		EC215EB0099C098773D0C66F896A3966 /* GuiLite-Pod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GuiLite-Pod-umbrella.h"; sourceTree = "<group>"; };
+		F0C77F9AB8434941F20F987F1866DEE2 /* GuiLite-Pod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GuiLite-Pod-dummy.m"; sourceTree = "<group>"; };
+		F29A2E2774FD669DF38BD1A2B2E214DE /* msg_linux.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = msg_linux.cpp; sourceTree = "<group>"; };
+		FB2AD985D70FE887917B8A6B09652F9A /* cmd_target.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cmd_target.h; sourceTree = "<group>"; };
+		FB35405A172F3FA9C5B3B661A26DEB4B /* button.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = button.h; sourceTree = "<group>"; };
+		FFED0622438AF8CD8A35281349F2BE7F /* GuiLite-Pod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GuiLite-Pod-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3516EA5185EA6C3072C2AE639C0C7CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8B1BB8BBE7BDCFD89E31921D17B05F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDDA7297218E80D5A2784E5E78607978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B909EA19E0E08A0FDD394C49796190 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3A258F03D867313BCB8D67A220822E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEE477D205A066BBDF949A111171062 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10EDF23EB83DF9AC043CBE0E98BC19C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48D1FD0B6D7DA4A1F49E37EDED39178 /* Pods-GuiLite-Pod_Example */,
+				E525D87F717A4F82CE1CD6FDCBF65A9C /* Pods-GuiLite-Pod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		17F663DEDB2B9E88B609F9F376921846 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				229B3383909D47CD5AF5898FB26470B0 /* button.cpp */,
+				73CB8689D2F657C6C74CD2A785A06092 /* dialog.cpp */,
+				1CA05465126A6E842D0A4905ADA888D8 /* edit.cpp */,
+				5F8D44411A835169FF70B2400C19DBE7 /* gesture.cpp */,
+				555694AF4C3DE14C9FBEE7E1D8FDBD46 /* keyboard.cpp */,
+				8AA77CE786B28284A7CA1C3804EF6AE5 /* label.cpp */,
+				0AD5363F2451811EF7614DC891ED3FC3 /* list_box.cpp */,
+				6B3F9197CF447C4E3A617699C37EAB1C /* slide_group.cpp */,
+				8756D870C2D6B677151EDFBF0C4E8875 /* spinbox.cpp */,
+				8A0497D14483CC466D1163B75D644BBC /* table.cpp */,
+				624EB19BF248C8BDD1346E7E95E48574 /* wave_buffer.cpp */,
+				C7612B7FE427E48026AB50C3F5E38A41 /* wave_ctrl.cpp */,
+			);
+			name = widgets;
+			path = "GuiLite-Pod/Classes/widgets";
+			sourceTree = "<group>";
+		};
+		26D20067A83F9E3424D16532411270C8 /* adapter */ = {
+			isa = PBXGroup;
+			children = (
+				82FFEB9ABB2F93CA0E6F17F018AA754E /* api_linux.cpp */,
+				48D04967125B21E1A60EBA9F72A76218 /* audio_linux.cpp */,
+				F29A2E2774FD669DF38BD1A2B2E214DE /* msg_linux.cpp */,
+			);
+			name = adapter;
+			path = adapter;
+			sourceTree = "<group>";
+		};
+		369606D285DF8F7226DF3EA4BC7F7226 /* widgets_include */ = {
+			isa = PBXGroup;
+			children = (
+				FB35405A172F3FA9C5B3B661A26DEB4B /* button.h */,
+				1004681208FBDF9DABA5A88CF6F38816 /* dialog.h */,
+				D7E4A051B859B3E72FDC8D645FC9FCB1 /* edit.h */,
+				5889651A07C37F9B093A479C008552F1 /* gesture.h */,
+				46EC7AEEBE0679A14451E001D524379E /* keyboard.h */,
+				19B5BBE55131CAE8BB21402C5AD15782 /* label.h */,
+				A7BA16E53FF8ADF939E61F78D0F8A0C3 /* list_box.h */,
+				9999F9BC9C471602DB4D59D80C462133 /* slide_group.h */,
+				78F4FF4F7475435EBC92EA37D7952B1B /* spinbox.h */,
+				B739D8ADFC0720771A415557A262A2C4 /* table.h */,
+				8CDF649AD7D082398DE27C92F600521A /* wave_buffer.h */,
+				DBAA719CC64C2E151A602D0ABEAE5582 /* wave_ctrl.h */,
+			);
+			name = widgets_include;
+			path = "GuiLite-Pod/Classes/widgets_include";
+			sourceTree = "<group>";
+		};
+		6A8F6A0D43BA26518F5252A615F73F2C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA1AB8EDD36C38C221744A9C209D5869 /* GuiLite-Pod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7AE55DFAA5B22624BEBF029E92E159B8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				724A281886D4C164B2954E696946A4D2 /* GuiLite-Pod.podspec */,
+				AB8CFBFAF5D29FF2E761BD3562B66546 /* LICENSE */,
+				5C2804C4596B41B93A2375E738FB9B8F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9F6739846919D11D96F9FE46DB5B85D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF149932A8BBC5DC624283484E8940 /* GuiLite-Pod.modulemap */,
+				4DB70460596DB2916C897BA9D320D045 /* GuiLite-Pod.xcconfig */,
+				F0C77F9AB8434941F20F987F1866DEE2 /* GuiLite-Pod-dummy.m */,
+				FFED0622438AF8CD8A35281349F2BE7F /* GuiLite-Pod-Info.plist */,
+				836301C878F175EF26B358C99B219172 /* GuiLite-Pod-prefix.pch */,
+				EC215EB0099C098773D0C66F896A3966 /* GuiLite-Pod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GuiLite-Pod";
+			sourceTree = "<group>";
+		};
+		A1EBB8B3D0D15464E2A1933043E0F3C2 /* core_include */ = {
+			isa = PBXGroup;
+			children = (
+				8E496431888129E957DBEBFEBACF7853 /* api.h */,
+				EB0A02878AC255DBCA435C09678E5F77 /* audio.h */,
+				8DBC70E04605B4ACBD228BD9F1A1377C /* bitmap.h */,
+				FB2AD985D70FE887917B8A6B09652F9A /* cmd_target.h */,
+				3D33EC3FC5B0328F34E5843FA847416B /* display.h */,
+				99CB491556C4C5869D2B9594321188FA /* msg.h */,
+				76C6C8F48BBFEB9A2FDB3274B2803614 /* rect.h */,
+				0A7C42A0878C21BEBE390E55399E17F8 /* resource.h */,
+				E73A53D0E6BA495746556F23BB3D8891 /* surface.h */,
+				555A8CFD283E258C4FBE5CF89AA8CB69 /* theme.h */,
+				175F5D79FA091651F9E88F7DA2316BF5 /* wnd.h */,
+				C0ACCFB8F32C455E80594BC3A8426CBE /* word.h */,
+			);
+			name = core_include;
+			path = "GuiLite-Pod/Classes/core_include";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA1AB8EDD36C38C221744A9C209D5869 /* GuiLite-Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3D44AD12B8045B38344D98469DC591A3 /* GuiLite.h */,
+				E4329D8D1151E37DE2FC48E91A039D71 /* core */,
+				A1EBB8B3D0D15464E2A1933043E0F3C2 /* core_include */,
+				7AE55DFAA5B22624BEBF029E92E159B8 /* Pod */,
+				9F6739846919D11D96F9FE46DB5B85D9 /* Support Files */,
+				17F663DEDB2B9E88B609F9F376921846 /* widgets */,
+				369606D285DF8F7226DF3EA4BC7F7226 /* widgets_include */,
+			);
+			name = "GuiLite-Pod";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6A8F6A0D43BA26518F5252A615F73F2C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E21A1BC01BFF2B64535528E59D7D925F /* Products */,
+				10EDF23EB83DF9AC043CBE0E98BC19C8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48D1FD0B6D7DA4A1F49E37EDED39178 /* Pods-GuiLite-Pod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8F2313E0A968DFEB9EFFAF7461F18300 /* Pods-GuiLite-Pod_Example.modulemap */,
+				D154EF676513C896DBF96F4B99BCE788 /* Pods-GuiLite-Pod_Example-acknowledgements.markdown */,
+				277CA06EC1CA1DB06CF0D8F30048B949 /* Pods-GuiLite-Pod_Example-acknowledgements.plist */,
+				5AF21BECCC0AB694EE6481C9DEE834F9 /* Pods-GuiLite-Pod_Example-dummy.m */,
+				2DC87CB192B8DBF4FEB1D57233800088 /* Pods-GuiLite-Pod_Example-frameworks.sh */,
+				2A3A0135A1E8A1421F45C49EF2259558 /* Pods-GuiLite-Pod_Example-Info.plist */,
+				7BEF7F9FE9571C1039A1F80EAEFF6E4B /* Pods-GuiLite-Pod_Example-umbrella.h */,
+				E3A10921D63A27073DF7CB3C63D2B1C4 /* Pods-GuiLite-Pod_Example.debug.xcconfig */,
+				B4AE411A6E3B1AE60ACE894FE3BD0239 /* Pods-GuiLite-Pod_Example.release.xcconfig */,
+			);
+			name = "Pods-GuiLite-Pod_Example";
+			path = "Target Support Files/Pods-GuiLite-Pod_Example";
+			sourceTree = "<group>";
+		};
+		E21A1BC01BFF2B64535528E59D7D925F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				938722886B27FC1FD4AA005D07E88306 /* GuiLite_Pod.framework */,
+				8DD10D889116B52C22E01D17C211BFC7 /* Pods_GuiLite_Pod_Example.framework */,
+				33EFD57BFB6C08E788B84EB48A391066 /* Pods_GuiLite_Pod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4329D8D1151E37DE2FC48E91A039D71 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				8845255721F9845C1FE424BCE5696460 /* bitmap.cpp */,
+				89B2EC8EBA197561EF1F4F7D973F77E6 /* cmd_target.cpp */,
+				76A9A9340DD210EC6BC82B1EFCCE50B5 /* display.cpp */,
+				085E9C517E8A1F95CF6AF480735CE769 /* rect.cpp */,
+				724521084132B97C11A8419EE0EAA346 /* surface.cpp */,
+				79436755C0ABD61A5A76C7DF2051816D /* theme.cpp */,
+				7CC965BD27799AA2EE959E913CF7DFB7 /* wnd.cpp */,
+				C6FAB582B0D2295A0FA7CCA0CDCCCD80 /* word.cpp */,
+				26D20067A83F9E3424D16532411270C8 /* adapter */,
+			);
+			name = core;
+			path = "GuiLite-Pod/Classes/core";
+			sourceTree = "<group>";
+		};
+		E525D87F717A4F82CE1CD6FDCBF65A9C /* Pods-GuiLite-Pod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3B7F63AF119D1ACBD81EFDDA34C13D /* Pods-GuiLite-Pod_Tests.modulemap */,
+				93376DC3EC5FE41DB46EC166404898D0 /* Pods-GuiLite-Pod_Tests-acknowledgements.markdown */,
+				46998C270B3A22D014AFBFC258721CCB /* Pods-GuiLite-Pod_Tests-acknowledgements.plist */,
+				262F360E48A001C8B22A4D8D244F6A2F /* Pods-GuiLite-Pod_Tests-dummy.m */,
+				3848BF4D6A43503F4CBBE35675DC70D1 /* Pods-GuiLite-Pod_Tests-Info.plist */,
+				E1913B4926189CD2C22075CACBFDA514 /* Pods-GuiLite-Pod_Tests-umbrella.h */,
+				824F2570AD75E3323671AA24DD06A2D4 /* Pods-GuiLite-Pod_Tests.debug.xcconfig */,
+				AF08AA0D5B151E712DE15CAF3F3B3EC1 /* Pods-GuiLite-Pod_Tests.release.xcconfig */,
+			);
+			name = "Pods-GuiLite-Pod_Tests";
+			path = "Target Support Files/Pods-GuiLite-Pod_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66AF302EBF01A1BB8FD56C41C61B1AFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED06D7A778C4488E7812628FF20F6AE6 /* Pods-GuiLite-Pod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE13C40AB053F06F247398E8096AB299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E6FF20BD9A1E70966CDED92ED8D234 /* api.h in Headers */,
+				B3A88AA5536F5FD93DAE4749D570DF2B /* audio.h in Headers */,
+				D2C506DF822E3C10AB01CA3239BCEE0A /* bitmap.h in Headers */,
+				280772136E26B11B1A340ABCAC7FAD91 /* button.h in Headers */,
+				B6967F9760348AFFC50F831460CC7AAF /* cmd_target.h in Headers */,
+				437E0571FE1F1738E01C92F1831FFE4D /* dialog.h in Headers */,
+				5AD1265B9257FC61BD56566360E28400 /* display.h in Headers */,
+				157D462044FBE02AD23E67E0A1041EF6 /* edit.h in Headers */,
+				F7021E2EAF428119430AEE64C024301A /* gesture.h in Headers */,
+				9A1C347754D9C3D27882FED9E11B8D46 /* GuiLite-Pod-umbrella.h in Headers */,
+				3040067DE793203ADDE207C7C04D8C4B /* GuiLite.h in Headers */,
+				79BFE8B2F59AE3E748B3A85CB8A07FD8 /* keyboard.h in Headers */,
+				45A48BBBABD2D5B0E5535B5164DC0508 /* label.h in Headers */,
+				1978E98FFB45F8ACF50964FBE05B78A2 /* list_box.h in Headers */,
+				5A840C0324FC607151AB6C04C78ED88B /* msg.h in Headers */,
+				413FCFC8ED35A6F60EED8758BD1AA6E0 /* rect.h in Headers */,
+				86FAAC440DC48836A23F903955CC77E1 /* resource.h in Headers */,
+				FDFB590B0E74702198871E091E69BF4E /* slide_group.h in Headers */,
+				9D4922E11E752FC9736FF75DA63E1437 /* spinbox.h in Headers */,
+				7DB0C2680FC84ABC89C997C703483834 /* surface.h in Headers */,
+				6811DCE5CD12184505EDA639CA5C6761 /* table.h in Headers */,
+				28CDA456362B38275A8341AFB31DB1B8 /* theme.h in Headers */,
+				533C52B77311C79A8552EB6B34CE5D10 /* wave_buffer.h in Headers */,
+				040B68F9A2D7212C046AECE997BC4C41 /* wave_ctrl.h in Headers */,
+				3D2C876AD43AEAF424291118E4F28E9C /* wnd.h in Headers */,
+				816D181B7CEAAFF4340D946ECDA98A75 /* word.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7511E9253478FE8033862AD7EF76A02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AF48CC2AA7614AC9F50C06DDA15459 /* Pods-GuiLite-Pod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AD3944AA14FD50DC744D19C897B7250 /* Pods-GuiLite-Pod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E81338F6A88BC84DD0B368EC0F5918 /* Build configuration list for PBXNativeTarget "Pods-GuiLite-Pod_Example" */;
+			buildPhases = (
+				66AF302EBF01A1BB8FD56C41C61B1AFA /* Headers */,
+				B4F363DC21347F61994C65E694F63AEC /* Sources */,
+				3516EA5185EA6C3072C2AE639C0C7CE2 /* Frameworks */,
+				707954C440124B128A5C242BF4DAB32D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA143AEA4505B4DDC45FF61303B4CD09 /* PBXTargetDependency */,
+			);
+			name = "Pods-GuiLite-Pod_Example";
+			productName = "Pods-GuiLite-Pod_Example";
+			productReference = 8DD10D889116B52C22E01D17C211BFC7 /* Pods_GuiLite_Pod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A14C60A4B5F573FCDA48FAB57BD3B489 /* GuiLite-Pod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B702789B060091EE231C31FC4D03568 /* Build configuration list for PBXNativeTarget "GuiLite-Pod" */;
+			buildPhases = (
+				DE13C40AB053F06F247398E8096AB299 /* Headers */,
+				8BCF8E5F20029E036126E02B96D6B9C0 /* Sources */,
+				CDDA7297218E80D5A2784E5E78607978 /* Frameworks */,
+				6FD50229A69AD4420D23AA936E8117C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GuiLite-Pod";
+			productName = "GuiLite-Pod";
+			productReference = 938722886B27FC1FD4AA005D07E88306 /* GuiLite_Pod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE7C1C4ECE216D05763648929FACEC95 /* Pods-GuiLite-Pod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06D231EBB0C8E7E25CD282830244B20 /* Build configuration list for PBXNativeTarget "Pods-GuiLite-Pod_Tests" */;
+			buildPhases = (
+				F7511E9253478FE8033862AD7EF76A02 /* Headers */,
+				9D0F1A3CEE9F5FEFEEC0826353B339F0 /* Sources */,
+				FD3A258F03D867313BCB8D67A220822E /* Frameworks */,
+				A157E1CC88B9F4EEDDCD65BE46B78327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BB833862AA9045C6A2DD7FCB7B39DD3 /* PBXTargetDependency */,
+			);
+			name = "Pods-GuiLite-Pod_Tests";
+			productName = "Pods-GuiLite-Pod_Tests";
+			productReference = 33EFD57BFB6C08E788B84EB48A391066 /* Pods_GuiLite_Pod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E21A1BC01BFF2B64535528E59D7D925F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14C60A4B5F573FCDA48FAB57BD3B489 /* GuiLite-Pod */,
+				3AD3944AA14FD50DC744D19C897B7250 /* Pods-GuiLite-Pod_Example */,
+				CE7C1C4ECE216D05763648929FACEC95 /* Pods-GuiLite-Pod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FD50229A69AD4420D23AA936E8117C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707954C440124B128A5C242BF4DAB32D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A157E1CC88B9F4EEDDCD65BE46B78327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BCF8E5F20029E036126E02B96D6B9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CE1545F16B4AA261FCB2BC449497BD /* api_linux.cpp in Sources */,
+				E24C89850F85720E48EEBB6ECC8CA57E /* audio_linux.cpp in Sources */,
+				95CE597AD85D57245FAC2F62AD57EE3C /* bitmap.cpp in Sources */,
+				91CF92C99DC2511E45CE16F1F65F0B6F /* button.cpp in Sources */,
+				C98654D528576A286282DEE429EF2373 /* cmd_target.cpp in Sources */,
+				215C796FC73B2E652111C6F8FFC08156 /* dialog.cpp in Sources */,
+				72981EBB553BDDF6CF4A84F121FEE627 /* display.cpp in Sources */,
+				0877B5F7B9027B10CC2AA43132FEFDAF /* edit.cpp in Sources */,
+				A3ACD514CFA5C82C969E3C33B54B6BCF /* gesture.cpp in Sources */,
+				EF680341AE65A444EB28B9246BBC0129 /* GuiLite-Pod-dummy.m in Sources */,
+				B4BD332C3C2C3AF61D1D081A1764BD79 /* keyboard.cpp in Sources */,
+				2DC4FE42B458037C59D14734E6D07FC4 /* label.cpp in Sources */,
+				41198119493B90502AA5FD5DA93F2F3B /* list_box.cpp in Sources */,
+				3AF2CCAA74CAB6B5B0A6B0ADD7010F88 /* msg_linux.cpp in Sources */,
+				7CCAA24E852EC0BC57575592268C5241 /* rect.cpp in Sources */,
+				5533EA57866B4D450DE0E37F81FB596E /* slide_group.cpp in Sources */,
+				7DF882902654001185D65633B0002D5E /* spinbox.cpp in Sources */,
+				FE0B82C51522E8247E50513AF64A4185 /* surface.cpp in Sources */,
+				534C15121F10AD859A7F04B17CDCA5C4 /* table.cpp in Sources */,
+				F53114ABCEEAB9083CC29EC2C9D04720 /* theme.cpp in Sources */,
+				5583AB4E5A73E9E8AAECBECAA4FDF3B8 /* wave_buffer.cpp in Sources */,
+				0372BC72289A12B3D9F47ADC63DD2902 /* wave_ctrl.cpp in Sources */,
+				EA60C6C2D6382543F260DFDE0104CA55 /* wnd.cpp in Sources */,
+				7253A85F5888456D850F4F4D99DCBE13 /* word.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0F1A3CEE9F5FEFEEC0826353B339F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D2588E7D54AE01C444E87ACC293E6F /* Pods-GuiLite-Pod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F363DC21347F61994C65E694F63AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156F752334BB3B57CC4853ACA5063FE /* Pods-GuiLite-Pod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BB833862AA9045C6A2DD7FCB7B39DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GuiLite-Pod_Example";
+			target = 3AD3944AA14FD50DC744D19C897B7250 /* Pods-GuiLite-Pod_Example */;
+			targetProxy = 5B82882409E0D5A270FF8C297C9DD064 /* PBXContainerItemProxy */;
+		};
+		FA143AEA4505B4DDC45FF61303B4CD09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GuiLite-Pod";
+			target = A14C60A4B5F573FCDA48FAB57BD3B489 /* GuiLite-Pod */;
+			targetProxy = 78BC43FB8EF0938BCF769BDE525A3055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28129BF85A01DF91E9D7203FB7E2CB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A10921D63A27073DF7CB3C63D2B1C4 /* Pods-GuiLite-Pod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuiLite-Pod_Example/Pods-GuiLite-Pod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuiLite-Pod_Example/Pods-GuiLite-Pod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EC8E05FBC9D08829781CCB6D7A04BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4AE411A6E3B1AE60ACE894FE3BD0239 /* Pods-GuiLite-Pod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuiLite-Pod_Example/Pods-GuiLite-Pod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuiLite-Pod_Example/Pods-GuiLite-Pod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53F35D3444AA86E3FDD061FE9E993192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB70460596DB2916C897BA9D320D045 /* GuiLite-Pod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GuiLite-Pod/GuiLite-Pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GuiLite-Pod/GuiLite-Pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GuiLite-Pod/GuiLite-Pod.modulemap";
+				PRODUCT_MODULE_NAME = GuiLite_Pod;
+				PRODUCT_NAME = GuiLite_Pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		848003AB04BDE10F946B129FB75E64C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB70460596DB2916C897BA9D320D045 /* GuiLite-Pod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GuiLite-Pod/GuiLite-Pod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GuiLite-Pod/GuiLite-Pod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GuiLite-Pod/GuiLite-Pod.modulemap";
+				PRODUCT_MODULE_NAME = GuiLite_Pod;
+				PRODUCT_NAME = GuiLite_Pod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CFC2ACA4F63E6E5DDABF9BC0D4531A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF08AA0D5B151E712DE15CAF3F3B3EC1 /* Pods-GuiLite-Pod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuiLite-Pod_Tests/Pods-GuiLite-Pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuiLite-Pod_Tests/Pods-GuiLite-Pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F39F5F366EF199DE4F26FBD56C84B10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 824F2570AD75E3323671AA24DD06A2D4 /* Pods-GuiLite-Pod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GuiLite-Pod_Tests/Pods-GuiLite-Pod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GuiLite-Pod_Tests/Pods-GuiLite-Pod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B702789B060091EE231C31FC4D03568 /* Build configuration list for PBXNativeTarget "GuiLite-Pod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F35D3444AA86E3FDD061FE9E993192 /* Debug */,
+				848003AB04BDE10F946B129FB75E64C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E81338F6A88BC84DD0B368EC0F5918 /* Build configuration list for PBXNativeTarget "Pods-GuiLite-Pod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28129BF85A01DF91E9D7203FB7E2CB7F /* Debug */,
+				2EC8E05FBC9D08829781CCB6D7A04BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06D231EBB0C8E7E25CD282830244B20 /* Build configuration list for PBXNativeTarget "Pods-GuiLite-Pod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39F5F366EF199DE4F26FBD56C84B10A /* Debug */,
+				CFC2ACA4F63E6E5DDABF9BC0D4531A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GuiLite-Pod (0.1.0)
+
+DEPENDENCIES:
+  - GuiLite-Pod (from `../`)
+
+EXTERNAL SOURCES:
+  GuiLite-Pod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GuiLite-Pod: d879241c2735a0c76b25c72a2050347373a77a5f
+
+PODFILE CHECKSUM: 047e73f99fdb0920b980d4228a7365131df79e39
+
+COCOAPODS: 1.7.5
